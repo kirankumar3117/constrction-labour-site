@@ -1,0 +1,22 @@
+.el-form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .el-form-item__label {
+    justify-content: flex-start !important;
+    color: rgb(75, 72, 72);
+    font-size: 18px;
+  }
+  .el-input__wrapper.is-focus {
+    box-shadow: none !important;
+    border: 1px solid var(--color-3);
+  }
+  .el-input__wrapper {
+    height: 45px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
